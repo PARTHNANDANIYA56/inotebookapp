@@ -1,0 +1,118 @@
+.d-flex {
+  display: flex;
+}
+
+.w-1 {
+  width: 100%;
+}
+
+.w-2 {
+  width: 50%;
+}
+
+.w-3 {
+  width: 33.33%;
+}
+
+.w-4 {
+  width: 25%;
+}
+
+.w-5 {
+  width: 20%;
+}
+
+.w-6 {
+  width: 16.33%;
+}
+
+.gap {
+  gap: 15px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.aline-item {
+  align-items: center;
+}
+
+/* ABOUTUS */
+
+
+.about-img {
+  
+  background-image: url(../public/banner-bg.png);
+  background-size: cover;
+  color: white;
+}
+
+.btn-1 {
+  padding: 10px;
+  background-color: rgb(255, 102, 0);
+  color: white;
+  border-radius: 8px;
+}
+
+/* Testimonial */
+.Magna {
+  background-color: #fdfdff;
+  align-items: center;
+  padding: 2%;
+}
+
+/* ourservice */
+.our-service {
+  margin-left: 15%;
+}
+
+.bookicon {
+  background-image: url(../public/icon-1.png);
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+}
+
+.bookicon:hover {
+  background-image: url(../public/icon-4.png);
+}
+
+.language_book {
+  background-image: url(../public/icon-3.png);
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+}
+
+.language_book:hover {
+  background-image: url(../public/icon-5.png);
+}
+
+.service_icon {
+  background-image: url(../public/icon-2.png);
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+}
+
+/* contacts */
+.user_login {
+  padding: 16px;
+  width: 100%;
+  border-radius: 90px;
+  position: relative;
+}
+
+.user_submit {
+  padding: 10px 20px 10px 20px;
+  border-radius: 50px;
+  background-color: #d7b911;
+  color: white;
+  right: 25px;
+  top: 5px;
+}
