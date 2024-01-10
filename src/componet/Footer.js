@@ -31,11 +31,11 @@ function footer() {
           <div className='col'>
             <p>@This Contecnt is Copyright</p>
           </div>
-          <div className='gap col'>
+          <div className='gap col d-flex'>
             <a href="#"><img src="fb-icon.png" alt="" /></a>
-            <a href="#"><img src="fb-icon.png" alt="" /></a>
-            <a href="#"><img src="fb-icon.png" alt="" /></a>
-            <a href="#"><img src="fb-icon.png" alt="" /></a>
+            <a href="#"><img src="instagram-icon.png" alt="" /></a>
+            <a href="#"><img src="linkedin-icon.png" alt="" /></a>
+            <a href="#"><img src="twitter-icon.png" alt="" /></a>
           </div>
         </div>
       </div>
