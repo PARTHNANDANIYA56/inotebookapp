@@ -27,10 +27,10 @@ const Navbar = () => {
                                 <NavLink className="nav-link" to="/Testimonial">Testimonial </NavLink>
                             </li>
                             <li className="nav-item dropdown">
-                                <NavLink className="nav-link" to="/Contacts" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contacts</NavLink>
+                               <NavLink className="nav-link" to="/Ourservice" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ourservice</NavLink> 
                             </li>
                             <li className="nav-item dropdown">
-                                <NavLink className="nav-link" to="/Ourservice" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ourservice</NavLink>
+                                <NavLink className="nav-link" to="/Contacts" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contacts</NavLink>
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
