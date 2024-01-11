@@ -4,7 +4,7 @@ function Ourservice() {
   return (
     <>
       <h1 className='text-center'>Our Sevices</h1>
-      <div className="mt-5 row container d-flex justify-evenly our-service">
+      <div className="mt-5 row container d-flex justify-evenly our-service gap  git">
         <div className="col shadow-lg mb-5 bg-white rounded">
           <div className="bookicon"></div>
           <h4 className="broadband_text"> STUDY ABROAD </h4>

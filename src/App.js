@@ -21,7 +21,6 @@ function App() {
         <Route path='/Ourservice' element={<Ourservice />} />
         <Route path='/Contacts' element={<Contacts />} />
       </Routes>
-      {/* <Contacts/> */}
       <Footer />
     </>
 
