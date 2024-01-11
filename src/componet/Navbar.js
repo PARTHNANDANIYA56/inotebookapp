@@ -1,4 +1,8 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+import About from './About';
+import Contacts from './Contacts';
+import Testimonial from './Testimonial';
 
 const Navbar = () => {
     return (
@@ -14,21 +18,24 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/Navbar.js">Home</a>
+                                <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/About.js">About</a>
+                                <NavLink className="nav-link active" aria-current="page" to="/About">About</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/Category.js">Category </a>
+                                <NavLink className="nav-link" to="/Testimonial">Testimonial </NavLink>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link" href="Books.js" role="button" data-bs-toggle="dropdown" aria-expanded="false">Books</a>
+                                <NavLink className="nav-link" to="/Contacts" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contacts</NavLink>
+                            </li>
+                            <li className="nav-item dropdown">
+                                <NavLink className="nav-link" to="/Ourservice" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ourservice</NavLink>
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                                <button className="btn btn-outline-success" type="submit">Search</button>
+                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button className="btn btn-outline-success" type="submit">Search</button>
                         </form>
                     </div>
                 </div>
